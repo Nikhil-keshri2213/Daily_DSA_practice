@@ -10,16 +10,36 @@ added by one as an integer array [index1, index2] of length 2.
 The tests are generated such that there is exactly one solution. 
 You may not use the same element twice.
 
-Your solution must use only constant extra space. */
+Your solution must use only constant extra space. 
+concept : Two Pointer
+*/
 
 public class TwoSum2 {
-    public static void twoSum2(int arr[], int target){
+    public static int[] twoSum2(int arr[], int target){
+        int[] res = new int[2];
+        int left = 0;
+        int right = arr.length - 1;
 
+        while(left < right){
+            int sum = arr[left] + arr[right];
+            if(sum == target){
+                res[0] = left + 1;
+                res[1] = right + 1;
+                System.out.println(res[0] + ", "+res[1]); //Testing
+                return res;
+            }
+            if(sum > target){
+                right--;
+            }else{
+                left++;
+            }
+        }
+        System.out.println(res[0] + ", "+res[1]);
+        return res;
     }
     public static void main(String[] args) {
         int arr[] = {2,7,11,15};
         int target = 9;
-
         twoSum2(arr, target);
     }
 }
