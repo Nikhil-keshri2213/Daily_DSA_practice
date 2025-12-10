@@ -1,0 +1,10 @@
+Day-1, 8 Dec, 2025
+
+Resource for System Design
+https://systemdesignschool.io/primer#introduction
+|
+-> Main Component
+    -> Microservice (Java-Spring, Node.js-Express, Go-Gin)-> The Problem -> How Microservices Work -> Common Implementation
+    -> Relational Databases (Postgres, SQL, SQLlite)-> The Problem -> How Microservices Work -> Common Implementation
+    -> NoSQL Databases -> 
+    ->
