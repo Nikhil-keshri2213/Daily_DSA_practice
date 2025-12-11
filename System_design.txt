@@ -5,6 +5,6 @@ https://systemdesignschool.io/primer#introduction
 |
 -> Main Component
     -> Microservice (Java-Spring, Node.js-Express, Go-Gin)-> The Problem -> How Microservices Work -> Common Implementation
-    -> Relational Databases (Postgres, SQL, SQLlite)-> The Problem -> How Microservices Work -> Common Implementation
-    -> NoSQL Databases -> 
+    -> Relational Databases (Postgres, SQL, SQLlite)-> The Problem -> How Relational DB Work -> Common Implementation
+    -> NoSQL Databases (MongoDB) -> The Problem -> How NoSQL DB Work -> Common Implementation
     ->
