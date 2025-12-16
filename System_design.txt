@@ -7,4 +7,4 @@ https://systemdesignschool.io/primer#introduction
     -> Microservice (Java-Spring, Node.js-Express, Go-Gin)-> The Problem -> How Microservices Work -> Common Implementation
     -> Relational Databases (Postgres, SQL, SQLlite)-> The Problem -> How Relational DB Work -> Common Implementation
     -> NoSQL Databases (MongoDB) -> The Problem -> How NoSQL DB Work -> Common Implementation
-    ->
+    -> Obejct Storage (AWS S3, Google Cloud Storage, Azure Blob) -> The Problem -> How Obejct Storage Work -> Common Implementation
